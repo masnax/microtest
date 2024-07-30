@@ -2,6 +2,8 @@ module github.com/masnax/microtest
 
 go 1.22.5
 
+retract v1.0.0
+
 require (
 	github.com/canonical/go-dqlite v1.22.0
 	github.com/canonical/lxd v0.0.0-20240725152227-dd8bcf029436
