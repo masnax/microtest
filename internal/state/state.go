@@ -8,15 +8,15 @@ import (
 	"github.com/canonical/lxd/shared"
 	"github.com/canonical/lxd/shared/api"
 
-	"github.com/canonical/microcluster/client"
-	internalConfig "github.com/canonical/microcluster/internal/config"
-	"github.com/canonical/microcluster/internal/db"
-	"github.com/canonical/microcluster/internal/endpoints"
-	"github.com/canonical/microcluster/internal/extensions"
-	internalClient "github.com/canonical/microcluster/internal/rest/client"
-	"github.com/canonical/microcluster/internal/sys"
-	"github.com/canonical/microcluster/internal/trust"
-	"github.com/canonical/microcluster/rest/types"
+	"github.com/masnax/microtest/client"
+	internalConfig "github.com/masnax/microtest/internal/config"
+	"github.com/masnax/microtest/internal/db"
+	"github.com/masnax/microtest/internal/endpoints"
+	"github.com/masnax/microtest/internal/extensions"
+	internalClient "github.com/masnax/microtest/internal/rest/client"
+	"github.com/masnax/microtest/internal/sys"
+	"github.com/masnax/microtest/internal/trust"
+	"github.com/masnax/microtest/rest/types"
 )
 
 // State exposes the internal daemon state for use with extended API handlers.

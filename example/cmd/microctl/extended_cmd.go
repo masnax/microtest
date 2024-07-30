@@ -5,9 +5,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	microClient "github.com/canonical/microcluster/client"
-	"github.com/canonical/microcluster/example/client"
-	"github.com/canonical/microcluster/microcluster"
+	microClient "github.com/masnax/microtest/client"
+	"github.com/masnax/microtest/example/client"
+	"github.com/masnax/microtest/microcluster"
 )
 
 type cmdExtended struct {

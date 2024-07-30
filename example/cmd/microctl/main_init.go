@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/canonical/microcluster/microcluster"
+	"github.com/masnax/microtest/microcluster"
 )
 
 type cmdInit struct {

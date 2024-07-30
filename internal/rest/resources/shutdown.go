@@ -6,11 +6,11 @@ import (
 
 	"github.com/canonical/lxd/lxd/response"
 
-	internalState "github.com/canonical/microcluster/internal/state"
-	"github.com/canonical/microcluster/rest"
-	"github.com/canonical/microcluster/rest/access"
-	"github.com/canonical/microcluster/rest/types"
-	"github.com/canonical/microcluster/state"
+	internalState "github.com/masnax/microtest/internal/state"
+	"github.com/masnax/microtest/rest"
+	"github.com/masnax/microtest/rest/access"
+	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/state"
 )
 
 var shutdownCmd = rest.Endpoint{

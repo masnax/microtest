@@ -6,7 +6,7 @@ import (
 
 	"github.com/canonical/lxd/shared/api"
 
-	"github.com/canonical/microcluster/internal/rest/types"
+	"github.com/masnax/microtest/internal/rest/types"
 )
 
 // ShutdownDaemon begins the daemon shutdown sequence.

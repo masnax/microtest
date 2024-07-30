@@ -2,8 +2,8 @@
 package api
 
 import (
-	"github.com/canonical/microcluster/example/api/types"
-	"github.com/canonical/microcluster/rest"
+	"github.com/masnax/microtest/example/api/types"
+	"github.com/masnax/microtest/rest"
 )
 
 // Servers represents the list of listeners that the daemon will start

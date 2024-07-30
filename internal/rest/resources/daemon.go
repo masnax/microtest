@@ -9,14 +9,14 @@ import (
 	"github.com/canonical/lxd/lxd/response"
 	"github.com/canonical/lxd/shared"
 
-	"github.com/canonical/microcluster/client"
-	internalClient "github.com/canonical/microcluster/internal/rest/client"
-	internalTypes "github.com/canonical/microcluster/internal/rest/types"
-	internalState "github.com/canonical/microcluster/internal/state"
-	"github.com/canonical/microcluster/rest"
-	"github.com/canonical/microcluster/rest/access"
-	"github.com/canonical/microcluster/rest/types"
-	"github.com/canonical/microcluster/state"
+	"github.com/masnax/microtest/client"
+	internalClient "github.com/masnax/microtest/internal/rest/client"
+	internalTypes "github.com/masnax/microtest/internal/rest/types"
+	internalState "github.com/masnax/microtest/internal/state"
+	"github.com/masnax/microtest/rest"
+	"github.com/masnax/microtest/rest/access"
+	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/state"
 )
 
 var daemonCmd = rest.Endpoint{

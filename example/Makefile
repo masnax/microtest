@@ -1,5 +1,5 @@
 VERSION=$(shell git describe --always --dirty --abbrev=10)
-LDFLAGS="-X github.com/canonical/microcluster/example/version.version=$(VERSION)"
+LDFLAGS="-X github.com/masnax/microtest/example/version.version=$(VERSION)"
 
 .PHONY: default
 default: build

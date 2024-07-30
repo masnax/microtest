@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/canonical/microcluster/internal/extensions"
-	"github.com/canonical/microcluster/rest/types"
+	"github.com/masnax/microtest/internal/extensions"
+	"github.com/masnax/microtest/rest/types"
 )
 
 // Server represents server status information.

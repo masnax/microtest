@@ -8,12 +8,12 @@ import (
 	"github.com/canonical/lxd/shared/logger"
 	"github.com/spf13/cobra"
 
-	"github.com/canonical/microcluster/example/api"
-	"github.com/canonical/microcluster/example/database"
-	"github.com/canonical/microcluster/example/version"
-	"github.com/canonical/microcluster/microcluster"
-	"github.com/canonical/microcluster/rest/types"
-	"github.com/canonical/microcluster/state"
+	"github.com/masnax/microtest/example/api"
+	"github.com/masnax/microtest/example/database"
+	"github.com/masnax/microtest/example/version"
+	"github.com/masnax/microtest/microcluster"
+	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/state"
 )
 
 // Debug indicates whether to log debug messages or not.

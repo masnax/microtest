@@ -1,4 +1,4 @@
-module github.com/canonical/microcluster
+module github.com/masnax/microtest
 
 go 1.22.5
 
