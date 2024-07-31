@@ -2,6 +2,8 @@ module github.com/masnax/microtest
 
 go 1.22.5
 
+retract v1.0.1
+
 retract v1.0.0
 
 require (
