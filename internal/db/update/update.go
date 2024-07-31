@@ -7,7 +7,7 @@ import (
 
 	"github.com/canonical/lxd/lxd/db/schema"
 
-	"github.com/masnax/microtest/internal/extensions"
+	"github.com/masnax/microtest/v2/internal/extensions"
 )
 
 // CreateSchema is the default schema applied when bootstrapping the database.

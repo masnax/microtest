@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/masnax/microtest/internal/config"
-	"github.com/masnax/microtest/internal/endpoints"
-	"github.com/masnax/microtest/internal/sys"
-	"github.com/masnax/microtest/rest"
-	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/v2/internal/config"
+	"github.com/masnax/microtest/v2/internal/endpoints"
+	"github.com/masnax/microtest/v2/internal/sys"
+	"github.com/masnax/microtest/v2/rest"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 type daemonsSuite struct {

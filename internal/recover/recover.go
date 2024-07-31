@@ -21,13 +21,13 @@ import (
 	"github.com/canonical/lxd/shared/logger"
 	"gopkg.in/yaml.v3"
 
-	"github.com/masnax/microtest/client"
-	"github.com/masnax/microtest/cluster"
-	"github.com/masnax/microtest/internal/config"
-	internalTypes "github.com/masnax/microtest/internal/rest/types"
-	"github.com/masnax/microtest/internal/sys"
-	"github.com/masnax/microtest/internal/trust"
-	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/v2/client"
+	"github.com/masnax/microtest/v2/cluster"
+	"github.com/masnax/microtest/v2/internal/config"
+	internalTypes "github.com/masnax/microtest/v2/internal/rest/types"
+	"github.com/masnax/microtest/v2/internal/sys"
+	"github.com/masnax/microtest/v2/internal/trust"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 // GetDqliteClusterMembers parses the trust store and

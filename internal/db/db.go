@@ -18,11 +18,11 @@ import (
 	"github.com/canonical/lxd/shared/logger"
 	"github.com/canonical/lxd/shared/revert"
 
-	"github.com/masnax/microtest/cluster"
-	"github.com/masnax/microtest/internal/db/update"
-	"github.com/masnax/microtest/internal/extensions"
-	"github.com/masnax/microtest/internal/sys"
-	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/v2/cluster"
+	"github.com/masnax/microtest/v2/internal/db/update"
+	"github.com/masnax/microtest/v2/internal/extensions"
+	"github.com/masnax/microtest/v2/internal/sys"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 // Open opens the dqlite database and loads the schema.

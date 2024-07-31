@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 // TokenRequest holds information for requesting a join token.

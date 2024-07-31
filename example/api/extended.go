@@ -8,12 +8,12 @@ import (
 
 	"github.com/canonical/lxd/lxd/response"
 
-	"github.com/masnax/microtest/client"
-	extendedTypes "github.com/masnax/microtest/example/api/types"
-	extendedClient "github.com/masnax/microtest/example/client"
-	"github.com/masnax/microtest/rest"
-	"github.com/masnax/microtest/rest/types"
-	"github.com/masnax/microtest/state"
+	"github.com/masnax/microtest/v2/client"
+	extendedTypes "github.com/masnax/microtest/v2/example/api/types"
+	extendedClient "github.com/masnax/microtest/v2/example/client"
+	"github.com/masnax/microtest/v2/rest"
+	"github.com/masnax/microtest/v2/rest/types"
+	"github.com/masnax/microtest/v2/state"
 )
 
 // This is an example extended endpoint reachable at /1.0/extended.

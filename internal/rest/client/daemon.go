@@ -6,8 +6,8 @@ import (
 
 	"github.com/canonical/lxd/shared/api"
 
-	"github.com/masnax/microtest/internal/rest/types"
-	apiTypes "github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/v2/internal/rest/types"
+	apiTypes "github.com/masnax/microtest/v2/rest/types"
 )
 
 // UpdateServers updates the additional servers config.

@@ -23,7 +23,7 @@ import (
 	"github.com/canonical/lxd/shared/logger"
 	"github.com/canonical/lxd/shared/tcp"
 
-	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 // Client is a rest client for the daemon.

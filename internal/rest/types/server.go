@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/masnax/microtest/internal/extensions"
-	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/v2/internal/extensions"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 // Server represents server status information.

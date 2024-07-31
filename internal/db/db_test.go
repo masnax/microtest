@@ -13,10 +13,10 @@ import (
 	"github.com/canonical/lxd/shared/api"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/masnax/microtest/cluster"
-	"github.com/masnax/microtest/internal/db/update"
-	"github.com/masnax/microtest/internal/extensions"
-	"github.com/masnax/microtest/internal/sys"
+	"github.com/masnax/microtest/v2/cluster"
+	"github.com/masnax/microtest/v2/internal/db/update"
+	"github.com/masnax/microtest/v2/internal/extensions"
+	"github.com/masnax/microtest/v2/internal/sys"
 )
 
 type dbSuite struct {

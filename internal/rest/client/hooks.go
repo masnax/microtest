@@ -6,8 +6,8 @@ import (
 
 	"github.com/canonical/lxd/shared/api"
 
-	internalTypes "github.com/masnax/microtest/internal/rest/types"
-	"github.com/masnax/microtest/rest/types"
+	internalTypes "github.com/masnax/microtest/v2/internal/rest/types"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 // RunPreRemoveHook executes the PreRemove hook with the given configuration on the cluster member targeted by this client.

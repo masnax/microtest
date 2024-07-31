@@ -7,7 +7,7 @@ import (
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 
-	"github.com/masnax/microtest/microcluster"
+	"github.com/masnax/microtest/v2/microcluster"
 )
 
 type cmdSQL struct {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/masnax/microtest/example/version"
+	"github.com/masnax/microtest/v2/example/version"
 )
 
 // CmdControl has functions that are common to the microctl commands.

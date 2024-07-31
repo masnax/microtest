@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 // Control represents the arguments that can be used to initialize/shutdown the daemon.

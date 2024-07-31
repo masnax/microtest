@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 // HeartbeatInfo represents information about the cluster sent out by the leader of the cluster to other members.

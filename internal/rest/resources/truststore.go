@@ -11,13 +11,13 @@ import (
 	"github.com/canonical/lxd/lxd/response"
 	"github.com/gorilla/mux"
 
-	"github.com/masnax/microtest/client"
-	internalClient "github.com/masnax/microtest/internal/rest/client"
-	"github.com/masnax/microtest/internal/trust"
-	"github.com/masnax/microtest/rest"
-	"github.com/masnax/microtest/rest/access"
-	"github.com/masnax/microtest/rest/types"
-	"github.com/masnax/microtest/state"
+	"github.com/masnax/microtest/v2/client"
+	internalClient "github.com/masnax/microtest/v2/internal/rest/client"
+	"github.com/masnax/microtest/v2/internal/trust"
+	"github.com/masnax/microtest/v2/rest"
+	"github.com/masnax/microtest/v2/rest/access"
+	"github.com/masnax/microtest/v2/rest/types"
+	"github.com/masnax/microtest/v2/state"
 )
 
 var trustCmd = rest.Endpoint{

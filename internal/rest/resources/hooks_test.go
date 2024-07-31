@@ -15,9 +15,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	internalTypes "github.com/masnax/microtest/internal/rest/types"
-	"github.com/masnax/microtest/internal/state"
-	"github.com/masnax/microtest/rest/types"
+	internalTypes "github.com/masnax/microtest/v2/internal/rest/types"
+	"github.com/masnax/microtest/v2/internal/state"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 type hooksSuite struct {

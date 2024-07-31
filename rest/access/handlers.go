@@ -10,11 +10,11 @@ import (
 	"github.com/canonical/lxd/lxd/util"
 	"github.com/canonical/lxd/shared/logger"
 
-	"github.com/masnax/microtest/internal/endpoints"
-	"github.com/masnax/microtest/internal/rest/access"
-	internalState "github.com/masnax/microtest/internal/state"
-	"github.com/masnax/microtest/rest/types"
-	"github.com/masnax/microtest/state"
+	"github.com/masnax/microtest/v2/internal/endpoints"
+	"github.com/masnax/microtest/v2/internal/rest/access"
+	internalState "github.com/masnax/microtest/v2/internal/state"
+	"github.com/masnax/microtest/v2/rest/types"
+	"github.com/masnax/microtest/v2/state"
 )
 
 // ErrInvalidHost is used to indicate that a request host is invalid.

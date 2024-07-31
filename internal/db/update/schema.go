@@ -10,7 +10,7 @@ import (
 	"github.com/canonical/lxd/lxd/db/schema"
 	"github.com/canonical/lxd/shared"
 
-	"github.com/masnax/microtest/internal/extensions"
+	"github.com/masnax/microtest/v2/internal/extensions"
 )
 
 // updateType represents whether the update is an internal or external schema update.

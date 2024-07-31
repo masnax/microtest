@@ -25,13 +25,13 @@ import (
 	"github.com/canonical/lxd/shared/revert"
 	"github.com/canonical/lxd/shared/tcp"
 
-	"github.com/masnax/microtest/cluster"
-	"github.com/masnax/microtest/internal/db/update"
-	"github.com/masnax/microtest/internal/extensions"
-	internalClient "github.com/masnax/microtest/internal/rest/client"
-	internalTypes "github.com/masnax/microtest/internal/rest/types"
-	"github.com/masnax/microtest/internal/sys"
-	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/v2/cluster"
+	"github.com/masnax/microtest/v2/internal/db/update"
+	"github.com/masnax/microtest/v2/internal/extensions"
+	internalClient "github.com/masnax/microtest/v2/internal/rest/client"
+	internalTypes "github.com/masnax/microtest/v2/internal/rest/types"
+	"github.com/masnax/microtest/v2/internal/sys"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 // DqliteDB holds all information internal to the dqlite database.

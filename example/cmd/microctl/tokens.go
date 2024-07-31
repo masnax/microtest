@@ -8,7 +8,7 @@ import (
 	cli "github.com/canonical/lxd/shared/cmd"
 	"github.com/spf13/cobra"
 
-	"github.com/masnax/microtest/microcluster"
+	"github.com/masnax/microtest/v2/microcluster"
 )
 
 type cmdSecrets struct {

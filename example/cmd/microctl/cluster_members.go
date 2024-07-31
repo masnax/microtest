@@ -17,9 +17,9 @@ import (
 	"golang.org/x/sys/unix"
 	"gopkg.in/yaml.v3"
 
-	"github.com/masnax/microtest/client"
-	"github.com/masnax/microtest/cluster"
-	"github.com/masnax/microtest/microcluster"
+	"github.com/masnax/microtest/v2/client"
+	"github.com/masnax/microtest/v2/cluster"
+	"github.com/masnax/microtest/v2/microcluster"
 )
 
 const recoveryConfirmation = `You should only run this command if:

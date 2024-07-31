@@ -15,13 +15,13 @@ import (
 	"github.com/canonical/lxd/shared/logger"
 	"github.com/gorilla/mux"
 
-	"github.com/masnax/microtest/cluster"
-	internalAccess "github.com/masnax/microtest/internal/rest/access"
-	"github.com/masnax/microtest/internal/rest/client"
-	internalState "github.com/masnax/microtest/internal/state"
-	"github.com/masnax/microtest/rest"
-	"github.com/masnax/microtest/rest/access"
-	"github.com/masnax/microtest/state"
+	"github.com/masnax/microtest/v2/cluster"
+	internalAccess "github.com/masnax/microtest/v2/internal/rest/access"
+	"github.com/masnax/microtest/v2/internal/rest/client"
+	internalState "github.com/masnax/microtest/v2/internal/state"
+	"github.com/masnax/microtest/v2/rest"
+	"github.com/masnax/microtest/v2/rest/access"
+	"github.com/masnax/microtest/v2/state"
 )
 
 func handleAPIRequest(action rest.EndpointAction, state state.State, w http.ResponseWriter, r *http.Request) response.Response {

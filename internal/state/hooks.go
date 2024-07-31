@@ -3,7 +3,7 @@ package state
 import (
 	"context"
 
-	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 // Hooks holds customizable functions that can be called at varying points by the daemon to.

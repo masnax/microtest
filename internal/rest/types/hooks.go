@@ -1,6 +1,6 @@
 package types
 
-import "github.com/masnax/microtest/rest/types"
+import "github.com/masnax/microtest/v2/rest/types"
 
 // HookType represents the various types of hooks available to microcluster.
 type HookType string

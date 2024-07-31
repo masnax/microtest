@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/masnax/microtest/internal/endpoints"
-	internalTypes "github.com/masnax/microtest/internal/rest/types"
-	"github.com/masnax/microtest/rest"
-	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/v2/internal/endpoints"
+	internalTypes "github.com/masnax/microtest/v2/internal/rest/types"
+	"github.com/masnax/microtest/v2/rest"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 // UnixEndpoints are the endpoints available over the unix socket.

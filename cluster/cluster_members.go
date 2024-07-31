@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/masnax/microtest/internal/db/update"
-	"github.com/masnax/microtest/internal/extensions"
-	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/v2/internal/db/update"
+	"github.com/masnax/microtest/v2/internal/extensions"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 //go:generate -command mapper lxd-generate db mapper -t cluster_members.mapper.go

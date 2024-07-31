@@ -16,14 +16,14 @@ import (
 	"github.com/canonical/lxd/shared/logger"
 	"golang.org/x/sys/unix"
 
-	"github.com/masnax/microtest/client"
-	"github.com/masnax/microtest/cluster"
-	"github.com/masnax/microtest/internal/daemon"
-	"github.com/masnax/microtest/internal/recover"
-	internalClient "github.com/masnax/microtest/internal/rest/client"
-	internalTypes "github.com/masnax/microtest/internal/rest/types"
-	"github.com/masnax/microtest/internal/sys"
-	"github.com/masnax/microtest/rest/types"
+	"github.com/masnax/microtest/v2/client"
+	"github.com/masnax/microtest/v2/cluster"
+	"github.com/masnax/microtest/v2/internal/daemon"
+	"github.com/masnax/microtest/v2/internal/recover"
+	internalClient "github.com/masnax/microtest/v2/internal/rest/client"
+	internalTypes "github.com/masnax/microtest/v2/internal/rest/types"
+	"github.com/masnax/microtest/v2/internal/sys"
+	"github.com/masnax/microtest/v2/rest/types"
 )
 
 // DaemonArgs are the data needed to start a MicroCluster daemon.

@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/masnax/microtest/internal/rest/types"
+	"github.com/masnax/microtest/v2/internal/rest/types"
 )
 
 // ControlDaemon posts control data to the daemon.
